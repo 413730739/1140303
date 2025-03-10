@@ -2,6 +2,7 @@ let input, slider, button, dropdown, urlDiv;
 let isBouncing = false;
 let bounceFrameCount = 0;
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   input = createInput('✨ ✨ ✨ '); // 創建文字框，預設文字為✨ ✨ ✨

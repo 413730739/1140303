@@ -24,10 +24,12 @@ function setup() {
   dropdown.option('主頁', ''); // 添加選項
   dropdown.option('淡江大學', 'https://www.tku.edu.tw/'); // 添加選項
   dropdown.option('第五周', 'https://413730739.github.io/0317/'); // 添加選項
+  dropdown.option('第六周', 'https://413730739.github.io/0324/'); // 添加選項
   dropdown.option('第二周筆記', 'https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/ry2HewK9Jl'); // 添加選項
   dropdown.option('第三周筆記', 'https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/HJzrJjzjyx'); // 添加選項
   dropdown.option('第四周筆記', 'https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/S14fRRjjJl'); // 添加選項
   dropdown.option('第五周筆記', 'https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/SJuIsMBnkx'); // 添加選項
+  dropdown.option('第六周筆記', 'https://hackmd.io/@k_uQPxPmRdKuweqHQekgQw/HkCm0S03kg'); // 添加選項
   dropdown.option('淡江教科系', 'https://413730739.github.io/0317/'); // 添加選項
   dropdown.option('測驗題', 'https://413730739.github.io/0310/'); // 添加選項
   dropdown.changed(openURL); // 設定選項改變時的回調函數
